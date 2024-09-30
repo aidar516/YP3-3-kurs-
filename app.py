@@ -11,6 +11,7 @@ db.init_app(app)
 admin.init_app(app)
 migrate = Migrate(app, db)
 
+hhhhh
 
 @app.route('/')
 def index():
