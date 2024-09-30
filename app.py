@@ -11,7 +11,6 @@ db.init_app(app)
 admin.init_app(app)
 migrate = Migrate(app, db)
 
-
 @app.route('/')
 def index():
     if 'user_id' in session:
